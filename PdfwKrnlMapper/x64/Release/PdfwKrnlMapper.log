@@ -1,0 +1,36 @@
+﻿  Bypass.cpp
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Loadup\Loadup.h(103,18): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Loadup\Loadup.h(253,27): warning C4101: 'e': unreferenced local variable
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Bypass.cpp(74,17): warning C4806: '==': unsafe operation: no value of type 'bool' promoted to type 'unsigned int' can equal the given constant
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Bypass.cpp(121,4): warning C4102: 'defualt': unreferenced label
+  PdfwKrnlMapper.cpp
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Loadup\Loadup.h(103,18): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Loadup\Loadup.h(253,27): warning C4101: 'e': unreferenced local variable
+  Scanner.cpp
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Signature\Scanner.cpp(68,27): warning C4267: '=': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Signature\Scanner.cpp(68,27): warning C4267:         with
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Signature\Scanner.cpp(68,27): warning C4267:         [
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Signature\Scanner.cpp(68,27): warning C4267:             _Ty=int
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Signature\Scanner.cpp(68,27): warning C4267:         ]
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Signature\Scanner.cpp(72,63): warning C4267: '=': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Signature\Scanner.cpp(72,63): warning C4267:         with
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Signature\Scanner.cpp(72,63): warning C4267:         [
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Signature\Scanner.cpp(72,63): warning C4267:             _Ty=int
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Signature\Scanner.cpp(72,63): warning C4267:         ]
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Signature\Scanner.cpp(76,35): warning C4267: '=': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Signature\Scanner.cpp(76,35): warning C4267:         with
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Signature\Scanner.cpp(76,35): warning C4267:         [
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Signature\Scanner.cpp(76,35): warning C4267:             _Ty=int
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Signature\Scanner.cpp(76,35): warning C4267:         ]
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Signature\Scanner.cpp(111,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Utils.cpp
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Loadup\Loadup.h(103,18): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Loadup\Loadup.h(253,27): warning C4101: 'e': unreferenced local variable
+  Vuln.cpp
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Loadup\Loadup.h(103,18): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\dnfki\Desktop\PdfwKrnlMapper\Loadup\Loadup.h(253,27): warning C4101: 'e': unreferenced local variable
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 518 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  PdfwKrnlMapper.vcxproj -> C:\Users\dnfki\Desktop\PdfwKrnlMapper\x64\Release\PdfwKrnlMapper.exe
