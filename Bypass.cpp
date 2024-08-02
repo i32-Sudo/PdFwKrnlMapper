@@ -44,11 +44,12 @@ namespace Bypass
 	bool LoadVulnurableDriver(std::string PdFwKrnlPath, std::string PdFwKrnlServiceName)
 	{
 		std::string DrvPath = PdFwKrnlPath;
-		bool Status = driver::load(DrvPath, "PdFwKrnl");
+		bool Status = driver::load(DrvPath, PdFwKrnlServiceName);
 		if (!Status)
 			return Status;
 
-		VulnurableDriverHandle = CreateFileA(E("\\\\.\\PdFwKrnl"), GENERIC_READ | GENERIC_WRITE, FILE_SHARE_READ | FILE_SHARE_WRITE, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
+		std::string PdFw = "\\\\.\\" + PdFwKrnlServiceName;
+		VulnurableDriverHandle = CreateFileA((LPCSTR)PdFw.c_str(), GENERIC_READ | GENERIC_WRITE, FILE_SHARE_READ | FILE_SHARE_WRITE, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
 		if (VulnurableDriverHandle == INVALID_HANDLE_VALUE || !VulnurableDriverHandle)
 			return false;
 
