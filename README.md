@@ -18,4 +18,4 @@ int main() {
 }
 ```
 # Contact
-If you want an actually good Kernel Level Cheat that is UD My discord is -> `_ambitza`
+If you want to contact me in regards of my work or projects my discord is -> `_ambitza`, Please do not message me for Issues or Learning/Studying I am not a teacher.
