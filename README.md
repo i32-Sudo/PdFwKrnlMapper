@@ -18,4 +18,4 @@ int main() {
 }
 ```
 # Contact
-If you want to contact me in regards of my work or projects my discord is -> `_chisla`, Please do not message me for Issues or Learning/Studying I am not a teacher.
+If you want to contact me in regards of my work or projects my discord is on my main github page / readme.md (i32-Sudo)[https://github.com/i32-Sudo], Please do not message me for Issues or Learning/Studying I am not a teacher.
